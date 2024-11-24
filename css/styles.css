@@ -58,6 +58,7 @@ a {
 
 .nav-item {
   position: relative;
+  color: #404bbf;
 }
 
 .nav-item .active::after {
@@ -513,5 +514,9 @@ button {
 }
 
 .section-container {
+  display: flex;
+}
+
+.section-footer {
   display: flex;
 }
