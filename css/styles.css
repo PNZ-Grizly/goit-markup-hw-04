@@ -456,7 +456,6 @@ button {
 .page-footer {
   padding: 100px 0;
   background-color: #2e2f42;
-  display: flex;
 }
 
 .footer-logo {
@@ -470,12 +469,22 @@ button {
   letter-spacing: 0.02em;
 }
 
+.section-footer {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
+.footer-container {
+  margin-right: 120px;
+}
+
 .footer-social {
-  display: block;
   max-width: 208px;
   max-height: 80px;
   align-items: center;
   margin-right: 400px;
+  margin-left: 120px;
 }
 
 .footer-social-text {
@@ -502,21 +511,13 @@ button {
   fill: #f4f4fd;
 }
 
-.footer-social-list {
-  display: flex;
-  gap: 16px;
-  margin-top: 16px;
-}
-
 .footer-social-logo {
   width: 40px;
   height: 40px;
 }
 
-.section-container {
+.footer-social-list {
   display: flex;
-}
-
-.section-footer {
-  display: flex;
+  gap: 16px;
+  margin-top: 16px;
 }
