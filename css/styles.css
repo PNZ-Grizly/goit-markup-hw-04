@@ -340,6 +340,10 @@ button {
   padding: 8px 16px 0 16px;
 }
 
+.social-lst {
+  margin-top: 8px;
+}
+
 .social-link {
   display: flex;
   justify-content: center;
@@ -424,7 +428,7 @@ button {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-project:hover .overlay-content {
+.portfolio-item:hover .overlay-content {
   transform: translateX(0);
 }
 
@@ -485,14 +489,6 @@ button {
 
 .footer-container {
   margin-right: 120px;
-}
-
-.footer-social {
-  max-width: 208px;
-  max-height: 80px;
-  align-items: center;
-  margin-right: 400px;
-  margin-left: 120px;
 }
 
 .footer-social-text {
